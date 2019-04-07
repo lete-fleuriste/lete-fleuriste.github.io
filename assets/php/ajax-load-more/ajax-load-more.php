@@ -6,7 +6,7 @@
 	<meta name="description" content="">
 	<meta name="author" content="">
 
-	<title>L'été Fleuriste</title>
+	<title>Vortex - AJAX Portfolio HTML Template</title>
 
 	<!-- Favicons -->
 	<link rel="shortcut icon" href="assets/images/favicon.png">
@@ -19,7 +19,6 @@
 
 	<!-- Plugins -->
 	<link href="assets/css/font-awesome.min.css" rel="stylesheet">
-	<link href="assets/css/linea-icons.css" rel="stylesheet">
 	<link href="assets/css/ionicons.min.css" rel="stylesheet">
 	<link href="assets/css/simpletextrotator.css" rel="stylesheet">
 	<link href="assets/css/magnific-popup.css" rel="stylesheet">
@@ -51,11 +50,53 @@
 
 					<li class="slidedown">
 						<a href="#">Home</a>
+						<ul>
+							<li><a href="index.html">Light header</a></li>
+							<li><a href="index-2.html">Dark header</a></li>
+							<li><a href="index-3.html">Film overlay</a></li>
+							<li><a href="index-4.html">Image Slider</a></li>
+							<li><a href="index-5.html">Youtube Video</a></li>
+							<li><a href="index-6.html">Text rotator</a></li>
+							<li><a href="index-7.html">Agency</a></li>
+						</ul>
 					</li>
+
+					<li><a href="about.html">About</a></li>
 
 					<li class="slidedown">
 						<a href="#">Portfolio</a>
+						<ul>
+							<li><a href="portfolio-single-1.html">Single 1</a></li>
+							<li><a href="portfolio-single-2.html">Single 2</a></li>
+							<li><a href="portfolio-single-3.html">Single 3</a></li>
+							<li><a href="portfolio-single-4.html">Single 4</a></li>
+							<li><a href="portfolio-single-5.html">Single 5 </a></li>
+							<li><a href="portfolio-single-6.html">Single 6 with slider</a></li>
+						</ul>
 					</li>
+
+					<li class="slidedown">
+						<a href="#">News</a>
+						<ul>
+							<li><a href="blog-grid.html">3 column grid</a></li>
+							<li><a href="blog-grid-2.html">2 column grid</a></li>
+							<li><a href="blog-masonry.html">Blog Masonry</a></li>
+							<li><a href="blog-single.html">Single post</a></li>
+						</ul>
+					</li>
+
+					<li class="slidedown">
+						<a href="#">Features</a>
+						<ul>
+							<li><a href="components-1.html">Buttons, Content box, Progress bars</a></li>
+							<li><a href="components-2.html">Tab & Accordian</a></li>
+							<li><a href="components-3.html">Pricing tables</a></li>
+							<li><a href="components-4.html">Typography & Columns</a></li>
+							<li><a href="components-5.html">Modules & Overlays</a></li>
+						</ul>
+					</li>
+
+					<li><a href="contact.html">Contact</a></li>
 
 				</ul>
 
@@ -69,7 +110,7 @@
 				<div class="row">
 
 					<div class="col-sm-12 text-center">
-						<p class="copyright font-alt m-b-0">© 2019 L'été Fleuriste, All Rights Reserved.</p>
+						<p class="copyright font-alt m-b-0">© 2015 Vortex, All Rights Reserved.</p>
 					</div>
 
 				</div>
@@ -93,7 +134,7 @@
 					<!-- YOU LOGO HERE -->
 					<a class="navbar-brand" href="index.html">
 						<!-- IMAGE OR SIMPLE TEXT -->
-						<img src="assets/images/logo.png" width="30" alt="">
+						<img src="assets/images/logo-dark.png" width="95" alt="">
 					</a>
 				</div>
 
@@ -111,8 +152,8 @@
 
 				<ul class="extra-navbar nav navbar-nav navbar-right">
 					<li><a href="index.html" title="Home">Home</a></li>
-					<li><a href="index.html" title="Home">About</a></li>
-					<li><a href="index.html" title="Home">Contact</a></li>
+					<li><a href="about.html" title="About">About</a></li>
+					<li><a href="contact.html" title="Contact">Contact</a></li>
 				</ul>
 
 			</div>
@@ -121,14 +162,14 @@
 		<!-- /NAVIGATION -->
 
 		<!-- HERO -->
-		<section id="hero" class="module-hero module-parallax module-full-height bg-light-30" data-background="assets/images/top.jpg">
+		<section id="hero" class="module-hero module-parallax module-full-height bg-light-30" data-background="assets/images/section-4.jpg">
 
 			<!-- HERO TEXT -->
 			<div class="hero-caption">
 				<div class="hero-text">
 
-					<h1 class="mh-line-size-1 font-alt m-b-50">L'été Fleuriste</h1>
-					<h5 class="mh-line-size-4 font-alt">Flower Shop</h5>
+					<h1 class="mh-line-size-1 font-alt m-b-50">James Vortex</h1>
+					<h5 class="mh-line-size-4 font-alt">professional photographer</h5>
 
 				</div>
 			</div>
@@ -147,7 +188,7 @@
 
 					<div class="col-sm-12">
 						<ul id="filters" class="filters font-alt">
-							<li><a href="#" data-filter="*" class="current">All <sup><small>.355</small></sup></a></li>
+							<li><a href="#" data-filter="*"class="current">All <sup><small>.355</small></sup></a></li>
 							<li><a href="#" data-filter=".branding">Branding <sup><small>.78</small></sup></a></li>
 							<li><a href="#" data-filter=".design">Design <sup><small>.123</small></sup></a></li>
 							<li><a href="#" data-filter=".photo">Photo <sup><small>.144</small></sup></a></li>
@@ -315,7 +356,7 @@
 				<div class="row m-t-70 text-center wow fadeInUp">
 					<div class="col-sm-12">
 
-						<button id="show-more" class="btn btn-block btn-lg btn-g show-more">More works</button>
+						<button href="#" id="show-more" class="btn btn-block btn-lg btn-g show-more">More works</button>
 
 					</div>
 				</div>
@@ -336,7 +377,11 @@
 					<div class="col-sm-12">
 
 						<ul class="social-text-links font-alt text-center m-b-20">
-							<li><a href="https://www.instagram.com/lete_fleuriste/">Instagram</a></li>
+							<li><a href="#">Facebook</a></li>
+							<li><a href="#">Google plus</a></li>
+							<li><a href="#">Twitter</a></li>
+							<li><a href="#">Linkedin</a></li>
+							<li><a href="#">Dribbble</a></li>
 						</ul>
 
 					</div>
@@ -347,7 +392,7 @@
 
 					<div class="col-sm-12">
 
-						<p class="copyright text-center m-b-0">© 2019 <a href="#">L'été Fleuriste</a>, All Rights Reserved.</p>
+						<p class="copyright text-center m-b-0">© 2015 <a href="#">Vortex</a>, All Rights Reserved.</p>
 
 					</div>
 
@@ -386,6 +431,7 @@
 	<script src="assets/js/smoothscroll.js"></script>
 	<script src="http://maps.google.com/maps/api/js?sensor=true"></script>
 	<script src="assets/js/gmaps.js"></script>
+	<script src="assets/js/contact.js"></script>
 	<script src="assets/js/custom.js"></script>
 
 </body>
